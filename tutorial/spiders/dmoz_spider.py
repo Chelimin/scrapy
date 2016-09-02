@@ -6,7 +6,7 @@ class DmozSpider(scrapy.Spider):
     name = "dmoz"
     allowed_domains = ["dmoz.org"]
     start_urls = [
-        "http://www.dmoz.org/Computers/Programming/Languages/Python/",
+        "http://www.househelp.sg/",
     ]
 
     def parse(self, response):
